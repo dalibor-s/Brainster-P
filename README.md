@@ -34,6 +34,11 @@ Among all the trained models the best model has been selected which was TF-IDF E
 The results show that the logistic regression algorithm achieved the best result in the first scope compared with the other models, with 82.67% performance accuracy. In all models there is only a slight difference between accuracy and f1 score.
 
 [img.table]
+
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
 Algorithm	Accuracy %	F1 Score %
 CV LR	82.67	81.83
 CV RF	78.00	76.39
