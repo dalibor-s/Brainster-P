@@ -35,9 +35,23 @@ The results show that the logistic regression algorithm achieved the best result
 
 [img.table]
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Algorithm | Accuracy % | F1 score % 
+--- | --- | --- 
+CV LR | 82.67 | 81.83 
+--- | --- | --- 
+CV RF | 78.00 | 76.39 
+--- | --- | --- 
+TFIDF | 87.67 | 86.32 
+--- | --- | --- 
+TFIDF ENSEMBLE | 88.33 | 87.37 
+--- | --- | --- 
+TFIDF RF | 75.67 | 74.08
+--- | --- | --- 
+TFIDF RF | 75.67 | 74.08
+transformer | 85.33 | --- 
+
+
+
 
 Algorithm	Accuracy %	F1 Score %
 CV LR	82.67	81.83
